@@ -1,4 +1,4 @@
-studioApp.controller('HomeCtrl', ['$scope', '$html', function($scope, $html) {
+studioApp.controller('HomeCtrl', ['$scope', '$http', '$modal', function($scope, $http, $modal), {
 
   // blah blah blah!
 
