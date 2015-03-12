@@ -9,13 +9,17 @@ studioApp.config(['$routeProvider', '$locationProvider', function($routeProvider
       templateUrl:'/views/home.html',
       controller:'HomeCtrl'
     })
-    .when('/visuals', {
+    .when('/visual', {
       templateUrl:'/views/visual.html',
       controller:'VisualCtrl'
     })
     .when('/about', {
       templateUrl:'/views/about.html',
       controller:'StaticCtrl'
+    })
+    .when('/studio/:id', {
+      templateUrl:'/views/show.html',
+      controller:'ShowCtrl'
     })
 
 }])
