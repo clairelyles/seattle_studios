@@ -1,5 +1,10 @@
-<div class="row text-center">
-  <h1>I'm the home page with maps and filterable lists!</h1>
-  <h2><a href="/studio/1">Hum Creative</a></h2>
+<div class="row" ng-controller="HomeCtrl">
+  <div class="col-sm-7 col-md-7">
+    <h1>Welcome to Seattle Studios!</h1>
+    <h2><a href="/studio/1">Hum Creative</a></h2>
+  </div>
+  <div class="col-sm-5 col-md-5 map-div">
+    <leaflet defaults="defaults" center="center" height="100vh" width="100%" style="width: 100%; height: 100vh; position: relative;"></leaflet>
+  </div>
 </div>
 

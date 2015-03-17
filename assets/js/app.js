@@ -1,4 +1,4 @@
-var studioApp = angular.module('StudioApp',['ui.bootstrap','ngRoute']);
+var studioApp = angular.module('StudioApp',['ui.bootstrap','ngRoute','leaflet-directive']);
 
 studioApp.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
 
